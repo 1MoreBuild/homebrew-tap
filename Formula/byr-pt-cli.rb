@@ -1,8 +1,8 @@
 class ByrPtCli < Formula
   desc "BYR CLI with OpenClaw-friendly JSON contract"
   homepage "https://github.com/1MoreBuild/clawkit"
-  url "https://registry.npmjs.org/byr-pt-cli/-/byr-pt-cli-0.1.1.tgz"
-  sha256 "b12458e8155be6ea1b040215cf3e78bc67f87e790d9e120795ed874a3a6c865d"
+  url "https://registry.npmjs.org/byr-pt-cli/-/byr-pt-cli-0.1.2.tgz"
+  sha256 "9fe9d4f0bfc740d1f9c720155651c1f3d60af8173e805b9d04c0621133127e24"
   license "MIT"
 
   depends_on "node"

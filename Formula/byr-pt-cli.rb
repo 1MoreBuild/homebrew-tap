@@ -13,6 +13,6 @@ class ByrPtCli < Formula
   end
 
   test do
-    assert_match "byr CLI", shell_output("#{bin}/byr --help")
+    assert_match "byr CLI", shell_output("#{bin}/byr help")
   end
 end

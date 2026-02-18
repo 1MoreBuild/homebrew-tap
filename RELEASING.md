@@ -17,4 +17,4 @@ This tap tracks npm releases of `byr-pt-cli`.
    - `git push`
 5. Verify install from tap:
    - `brew install 1MoreBuild/tap/byr-pt-cli`
-   - `byr --help`
+   - `byr help`

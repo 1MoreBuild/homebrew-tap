@@ -1,8 +1,20 @@
 # Releasing
 
-This tap tracks npm releases of `byr-pt-cli`.
+This tap tracks GitHub releases of `Lane` and npm releases of `byr-pt-cli`.
 
-## Checklist
+## Lane
+
+1. Publish and verify both Lane macOS release artifacts.
+2. Update `Casks/lane.rb` with the version and SHA-256 for the Apple Silicon
+   and Intel DMGs.
+3. Run:
+   - `brew style Casks/lane.rb`
+   - `brew audit --strict --cask Casks/lane.rb`
+   - `brew install --cask Casks/lane.rb`
+4. Confirm that Homebrew selected the native architecture and installed
+   `Lane.app`.
+
+## byr-pt-cli
 
 1. Publish a new npm version from `clawkit`:
    - `npm view byr-pt-cli version`

@@ -1,9 +1,9 @@
 cask "lane" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.0"
-  sha256 arm:   "82e31b44cfd37508eff3ccfa90272fde2b79a1a0175fa3ca76774b2b79f787b3",
-         intel: "db89840c9db685306d69352809e00724b2db447318e7ea665ed2a483ebe790a4"
+  version "0.1.1"
+  sha256 arm:   "6c8bc70e6026083433e1dcddc76da834f6301ac5a51e465eadebfec45c5771f3",
+         intel: "9753852f7fd6be6d599275c4e0f7968f8edb5c6123dd2dfbeb5220f736a7cdfe"
 
   url "https://github.com/1MoreBuild/Lane/releases/download/v#{version}/Lane-#{version}-mac-#{arch}.dmg",
       verified: "github.com/1MoreBuild/Lane/"
